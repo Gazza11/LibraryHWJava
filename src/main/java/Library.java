@@ -28,4 +28,8 @@ public class Library {
         }
         return false;
     }
+
+    public Book removeBook() {
+        return this.books.remove(0);
+    }
 }
